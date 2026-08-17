@@ -40,5 +40,19 @@ Script çalıştırıldığında sırasıyla veriler yüklenir ve optimize edili
 ## Proje Akışı
 Proje altı ana fazdan oluşmaktadır(Verinin özellikleri shape, info, columns, isnull gibi fonksiyonlarla taranmış ve karar alınmıştır fakat bu python dosyasında bulunmamaktadır.). Birinci fazda CSV dosyaları okunmakta, veri tipleri optimize edilmekte ve toplam fiyat sütunu oluşturulmaktadır. İkinci fazda iade ve normal işlem ayrımı yapılmakta, kayıtlı/misafir müşteri analizi gerçekleştirilmekte ve dashboard oluşturulmaktadır. Üçüncü fazda makine öğrenmesi için veri filtrelenmekte ve temizlenmektedir. Dördüncü fazda RFM metrikleri hesaplanmakta ve kural bazlı segmentasyon uygulanmaktadır. Beşinci fazda logaritmik dönüşüm, standardizasyon ve 4 küme oluşturma işlemleri yapılmaktadır. Altıncı ve son fazda ise RFM ve K-Means karşılaştırması yapılmakta ve görselleştirmeler oluşturulmaktadır.
 
+
+## 📈 İş Zekası (BI) Dashboard Çıktılarımız
+
+Aşağıdaki panolar, Python kodumuz tarafından otomatik olarak üretilen ve şirketin makro/mikro dinamiklerini yansıtan çıktılardır.
+
+### 1. Şirket Makro Performans Analizi (Satış, İade ve Müşteri Kanalları)
+![Makro Satış Dashboard 1](macro_sales_dashboard.png)
+
+### 2. Zaman, Lokasyon ve Sepet Dinamikleri
+![Makro Satış Dashboard 2](macro_sales_dashboard2.png)
+
+### 3. Makine Öğrenmesi: K-Means Müşteri Kümeleri ve RFM Doğrulaması
+![K-Means ve RFM Dashboard](kmeans_rfm_dashboard.png)
+
 ## Sonuçlar
 Proje sonucunda şirket, en değerli müşteri segmentlerini (hangilerine yatırım yapmalı?), zaman bazlı stratejileri (hangi gün ve saatlerde kampanya yapmalı?), ürün bazlı optimizasyonu (hangi ürünler lokomotif, hangileri sorunlu?), müşteri davranış modellerini (kullanıcılar nasıl alışveriş yapıyor?) ve churn riskini (hangi müşteriler kaybedilmek üzere?) öğrenebilmektedir.
