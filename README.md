@@ -46,7 +46,7 @@ Proje altı ana fazdan oluşmaktadır(Verinin özellikleri shape, info, columns,
 Aşağıdaki panolar, Python kodumuz tarafından otomatik olarak üretilen ve şirketin makro/mikro dinamiklerini yansıtan çıktılardır.
 
 ### 1. Şirket Makro Performans Analizi (Satış, İade ve Müşteri Kanalları)
-![Makro Satış Dashboard 1](macro_sales_dashboard.png)
+![Makro Satış Dashboard 1](macro_sales_dashboard1.png)
 
 ### 2. Zaman, Lokasyon ve Sepet Dinamikleri
 ![Makro Satış Dashboard 2](macro_sales_dashboard2.png)
