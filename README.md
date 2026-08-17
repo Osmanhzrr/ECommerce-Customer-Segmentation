@@ -2,6 +2,10 @@
 ## Proje Hakkında
 Bu proje, bir e-ticaret şirketinin 2009-2011 yılları arasındaki satış verilerini kapsamlı şekilde analiz eden bir veri bilimi projesidir. Proje kapsamında makro satış analizleri (ciro, iade oranları, ülke bazlı performans) yapılmakta, RFM (Recency, Frequency, Monetary) analizi ile kural tabanlı müşteri segmentasyonu gerçekleştirilmekte ve K-Means kümeleme algoritması ile unsupervised müşteri segmentasyonu uygulanıp karşılaştırılması da yapılmaktadır. Ayrıca 3D grafikler, ısı haritaları ve interaktif dashboard'lar gibi gelişmiş görselleştirmeler ile sonuçlar sunulmaktadır.
 
+##  Veri Seti (Dataset) Bilgisi
+Projede kullanılan "Online Retail II" veri seti GitHub dosya boyutu sınırlarını aştığı için repoya doğrudan yüklenmemiştir. Kodu kendi bilgisayarınızda çalıştırmak için orijinal veri setini aşağıdaki bağlantıdan indirip kod ile aynı dizine koyabilirsiniz:
+* 🔗 [Kaggle - Online Retail II Data Set](https://www.kaggle.com/datasets/mathchi/online-retail-ii-data-set-from-uci-ml-repo)
+
 ## Özellikler
 Veri İşleme ve Optimizasyon
 Büyük veri setlerinde bellek optimizasyonu (veri tipi dönüşümleri) yapılmakta, iki farklı yıl verisi birleştirilmekte ve tarihsel veri işleme ile özellik mühendisliği uygulanmaktadır.
